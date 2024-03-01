@@ -1,0 +1,25 @@
+{
+  "name": "dragon_lucky_words",
+  "version": "1.0.1",
+  "description": "龙年吉祥话",
+  "main": "index.js",
+  "dependencies": {
+    "dragon_rain": "^1.0.1",
+    "jquery": "^3.7.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leejingyun/dragon_lucky_words.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leejingyun/dragon_lucky_words/issues"
+  },
+  "homepage": "https://github.com/leejingyun/dragon_lucky_words#readme"
+}
