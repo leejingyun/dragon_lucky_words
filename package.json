@@ -4,6 +4,7 @@
   "description": "龙年吉祥话",
   "main": "index.js",
   "dependencies": {
+    "dragon_number_guessing": "^1.0.1",
     "dragon_rain": "^1.0.1",
     "jquery": "^3.7.1"
   },

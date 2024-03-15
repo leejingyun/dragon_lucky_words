@@ -1,6 +1,7 @@
 // 引入jQuery  
 const $ = require('jquery');  
 const dr = require('dragon_rain'); 
+const dng = require('dragon_number_guessing'); 
   
 // 定义你的函数，使用jQuery  
 function printWelcomeMessage() {  
@@ -26,6 +27,8 @@ function printWelcomeMessage() {
 	console.log(arr[randomIndex]);
 		  
 	dr.dragonRain('lee');
+		  
+	dng.startGame();
 
   });  
 }  
