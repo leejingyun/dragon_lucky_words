@@ -10,7 +10,9 @@ npm i dragon_lucky_words
 import { dragonLuckyWords } from "dragon_lucky_words";
 
 // 开始游戏  
-dragonLuckyWords.printWelcomeMessage();  
+dragonLuckyWords.printWelcomeMessage();
+// 复读机
+dragonLuckyWords.inputMessage("hi");  
   
  
 
