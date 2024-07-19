@@ -1,10 +1,9 @@
 {
   "name": "dragon_lucky_words",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "龙年吉祥话",
   "main": "index.js",
   "dependencies": {
-    "dragon_aunt_story": "^1.0.1",
     "dragon_awakening_of_insects": "^1.0.1",
     "dragon_balloons_story": "^1.0.1",
     "dragon_cake_story": "^1.0.1",

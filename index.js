@@ -32,7 +32,29 @@ function printWelcomeMessage() {
 
   });  
 }  
+
+// 复读机
+function inputMessage(message,count = 0) {  
+ 
+  // 如果已经打印了指定的次数，则停止  
+  if (count >= 3) {  
+    return;  
+  }  
   
-// 暴露函数作为模块的公开API  
-module.exports = printWelcomeMessage;
+  // 打印当前消息  
+  console.log(message);  
+  
+  // 设置定时器，在指定的延时后再次调用此函数，并递增计数器  
+  setTimeout(() => {  
+    printStringWithDelay(message, count + 1);  
+  }, 1000); 
+	
+}
+
+  
+// 将两个函数作为对象的属性导出  
+module.exports = {  
+  printWelcomeMessage,  
+  inputWelcomeMessage  
+};
  
